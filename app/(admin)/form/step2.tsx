@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Candidate, CandidateVote, VotingResults } from "../../../../types/election";
+import { Candidate, CandidateVote, VotingResults } from "../../../types/election";
 
 interface Step2Props {
   candidates: Candidate[];

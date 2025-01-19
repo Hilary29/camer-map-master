@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertCircle } from 'lucide-react';
-import { VotingResults } from "../../../../types/election";
+import { VotingResults } from "../../../types/election";
 
 type BureauInfoResponse = Pick<VotingResults, 'centerName' | 'department' | 'commune' | 'region'>;
 

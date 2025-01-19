@@ -9,7 +9,7 @@ export function Header({ userImage = "/placeholder.svg" }: HeaderProps) {
     <header className="w-full h-[85px] bg-[url('/img/font.png')] bg-cover bg-center bg-white shadow-sm">
       <div className="container mx-auto h-full flex items-center justify-between px-4">
         <div className="flex items-center gap-2">
-          <SidebarTrigger className=" text-white"/>
+          
           <Image src='/img/C@merMap.png' width={126} height={126} alt="logo" />
         </div>
         <div className="flex items-center gap-4">

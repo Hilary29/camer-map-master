@@ -8,7 +8,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import Step1 from "./Step1";
 import Step2 from "./step2";
 import Step3 from "./step3";
-import { Candidate, VotingResults } from "../../../../types/election";
+import { Candidate, VotingResults } from "../../../types/election";
 import { v4 as uuidv4 } from 'uuid';
 
 const MOCK_CANDIDATES: Candidate[] = [
@@ -98,7 +98,7 @@ export default function Page() {
   };
 
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen py-16">
       <div className="max-w-2xl mx-auto mb-8">
         <Progress value={progress} className="h-2" />
         <div className="flex justify-between mt-2">
