@@ -17,9 +17,9 @@ export default function HeroMap() {
     <section id="HeroMap">
       <div className=" bg-[url('/img/font.png')] bg-cover bg-center min-h-screen flex flex-col ">
         <div className="mx-24 mt-16 text-black rounded-lg">
-          <div className="text-black rounded-lg flex gap-2">
-            <div className="text-white flex-1  bg-[#ffffff16]  rounded-md py-2">
-              <div className="max-w-4xl h-[600px] mx-auto">
+          <div className="text-black rounded-lg flex gap-8">
+            <div className="text-white flex-1  bg-[#ffffff16]  rounded-md p-2">
+              <div className="max-w-5xl h-[600px] mx-auto">
                 <Map/> 
               </div>
             </div>
