@@ -20,7 +20,7 @@ import {
 const chartData = [
   { candidate: "macron", votes: 18768639, fill: "#4988ed", party: "La République En Marche" },
   { candidate: "lepen", votes: 13288686, fill: "#c80b41", party: "Rassemblement National" },
-  { candidate: "melenchon", votes: 7712520, fill: "#c8161d", party: "La France Insoumise" },
+  { candidate: "melenchon", votes: 7712520, fill: "#1cc816c3", party: "La France Insoumise" },
 ]
 
 const chartConfig = {
